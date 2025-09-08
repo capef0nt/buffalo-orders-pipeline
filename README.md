@@ -17,7 +17,7 @@ This project is the first step in creating a **data-driven supply chain monitori
 ---
 
 ## Technical Solution
-To address this problem, we implement a **modular ETL pipeline** with the following components:
+To address this problem, I implement a **modular ETL pipeline** with the following components:
 
 - **Ingestion:** Extract all orders from the Buffalo API and store raw JSON in MongoDB  
 - **Orchestration:** Use Apache Airflow DAGs to schedule and manage the pipeline  
